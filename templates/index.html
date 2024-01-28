@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Prediction</title>
+</head>
+<body>
+    <h1>Rain Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="location">Location:</label>
+        <input type="text" name="location" required>
+        <br>
+        <label for="min_temp">Min Temperature:</label>
+        <input type="text" name="min_temp" required>
+        <br>
+        <label for="max_temp">Max Temperature:</label>
+        <input type="text" name="max_temp" required>
+        <br>
+        <label for="rainfall">Rainfall:</label>
+        <input type="text" name="rainfall" required>
+        <br>
+        <label for="wind_gust_dir">Wind Gust Direction:</label>
+        <input type="text" name="wind_gust_dir" required>
+        <br>
+        <label for="wind_gust_speed">Wind Gust Speed:</label>
+        <input type="text" name="wind_gust_speed" required>
+        <br>
+        <label for="wind_dir_9am">Wind Direction 9am:</label>
+        <input type="text" name="wind_dir_9am" required>
+        <br>
+        <label for="wind_dir_3pm">Wind Direction 3pm:</label>
+        <input type="text" name="wind_dir_3pm" required>
+        <br>
+        <label for="wind_speed_9am">Wind Speed 9am:</label>
+        <input type="text" name="wind_speed_9am" required>
+        <br>
+        <label for="wind_speed_3pm">Wind Speed 3pm:</label>
+        <input type="text" name="wind_speed_3pm" required>
+        <br>
+        <label for="humidity_9am">Humidity 9am:</label>
+        <input type="text" name="humidity_9am" required>
+        <br>
+        <label for="humidity_3pm">Humidity 3pm:</label>
+        <input type="text" name="humidity_3pm" required>
+        <br>
+        <label for="pressure_9am">Pressure 9am:</label>
+        <input type="text" name="pressure_9am" required>
+        <br>
+        <label for="pressure_3pm">Pressure 3pm:</label>
+        <input type="text" name="pressure_3pm" required>
+        <br>
+        <label for="cloud_9am">Cloud 9am:</label>
+        <input type="text" name="cloud_9am" required>
+        <br>
+        <label for="cloud_3pm">Cloud 3pm:</label>
+        <input type="text" name="cloud_3pm" required>
+        <br>
+        <label for="temp_9am">Temperature 9am:</label>
+        <input type="text" name="temp_9am" required>
+        <br>
+        <label for="temp_3pm">Temperature 3pm:</label>
+        <input type="text" name="temp_3pm" required>
+        <br>
+        <label for="rain_today">Rain Today (Yes/No):</label>
+        <input type="text" name="rain_today" required>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
